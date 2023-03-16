@@ -3,7 +3,7 @@ module github.com/imannamdari/AndroidLibXrayLite
 go 1.19
 
 require (
-	github.com/imannamdari/xray-core v1.0.1
+	github.com/imannamdari/xray-core v1.0.3
 	golang.org/x/mobile v0.0.0-20221020085226-b36e6246172e
 	golang.org/x/sys v0.5.0
 )
@@ -19,15 +19,15 @@ require (
 	github.com/google/btree v1.1.2 // indirect
 	github.com/google/pprof v0.0.0-20230207041349-798e818bf904 // indirect
 	github.com/gorilla/websocket v1.5.0 // indirect
+	github.com/imannamdari/qtls-go1-19 v0.0.0 // indirect
 	github.com/imannamdari/qtls-go1-20 v0.0.5 // indirect
-	github.com/imannamdari/quic-go v0.0.5 // indirect
+	github.com/imannamdari/quic-go v0.0.6 // indirect
 	github.com/klauspost/compress v1.15.15 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.3 // indirect
 	github.com/miekg/dns v1.1.51 // indirect
 	github.com/onsi/ginkgo/v2 v2.8.1 // indirect
 	github.com/pelletier/go-toml v1.9.5 // indirect
 	github.com/pires/go-proxyproto v0.6.2 // indirect
-	github.com/quic-go/qtls-go1-19 v0.2.1 // indirect
 	github.com/refraction-networking/utls v1.2.2 // indirect
 	github.com/riobard/go-bloom v0.0.0-20200614022211-cdc8013cb5b3 // indirect
 	github.com/sagernet/sing v0.1.7 // indirect
@@ -35,7 +35,7 @@ require (
 	github.com/sagernet/wireguard-go v0.0.0-20221116151939-c99467f53f2c // indirect
 	github.com/seiflotfy/cuckoofilter v0.0.0-20220411075957-e3b120b3f5fb // indirect
 	github.com/v2fly/ss-bloomring v0.0.0-20210312155135-28617310f63e // indirect
-	github.com/xtls/reality v0.0.0-20230308170557-1c3141866eb7 // indirect
+	github.com/xtls/reality v0.0.0-20230309125256-0d0713b108c8 // indirect
 	go.starlark.net v0.0.0-20230128213706-3f75dec8e403 // indirect
 	go.uber.org/atomic v1.10.0 // indirect
 	golang.org/x/crypto v0.6.0 // indirect
