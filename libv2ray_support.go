@@ -322,7 +322,7 @@ func (d *ProtectedDialer) fdConn(ctx context.Context, ip net.IP, port int, netwo
 			return nil, err
 		}
 		return &v2internet.PacketConnWrapper{
-			Conn: packetConn,
+			PacketConn: packetConn,
 			Dest: &net.UDPAddr{
 				IP:   ip,
 				Port: port,
